@@ -3,12 +3,6 @@
 
 ## Enhancing Emergency Response: An Analysis of 911 Call Trends
 
-
-### **Root Directory**
-- **`README.md`**: Include a concise summary of the project, objectives, tools used, and key findings.
-- **`LICENSE`**: Specify the licensing terms for the project.
-- **`.gitignore`**: Add files and directories to exclude from version control.
-
 ---
 
 ### **Folders and Subdirectories**
@@ -21,16 +15,14 @@
 
 #### **2. Data and Preprocessing (`data/`)**
 - **`raw/`**: Include raw data files (if permissible to share).
-- **`cleaned/`**: Store cleaned and transformed data files.
 - **`data_dictionary.md`**: Describe each dataset's columns and meanings.
 
 #### **3. Code and Scripts (`src/`)**
 - `data_cleaning.py`: Python script for data cleaning and preprocessing.
 - `analysis.sql`: SQL queries for trend and performance analysis.
-- `visualizations.py`: Python script for generating visualizations (if applicable).
+- `visualizations.py`: Python script for generating visualizations.
 
 #### **4. Visualizations and Dashboard (`visualizations/`)**
-- **`plots/`**: Save static images or charts (e.g., PNG, JPG, or PDF formats).
 - **`dashboard_files/`**: Include Tableau workbooks or links to interactive dashboards.
 
 #### **5. Results (`results/`)**
