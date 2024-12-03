@@ -1,1 +1,66 @@
 
+Column Name	Description	API Field Name	Data Type
+Incident Number	An unique integer identifying a computer-aided dispatch incident, consisting of a two-digit year number, three-digit day-of-year and four-digit incident-count number.
+Read less	incident_number	Text
+
+Incident Type	A flag indicating whether a given incident was dispatched or officer-initiated. Dispatched incidents are received via 911 calls while officer-initiated incidents are created by officers in the field.
+Read less	incident_type	Text
+
+Mental Health Flag	A flag indicating whether a given incident was mental-health related or not. A given incident may be flagged as mental-health-related due to the initial problem description, the final problem description, the call disposition, because a crisis counselor was assigned to the call, because the caller asked for mental health services, because a 911 call taker assessed mental health played a role in the call or because the subject of a use of force related to the incident displayed "Emotionally Disturbed Person" conduct. Please note that multiple of the preceding conditions are often true for mental-health related calls. Problem descriptions related to mental health may indicate the call is related to an "Emotionally Disturbed Person" or an attempted suicide. Call dispositions that indicate a call is mental-health-related will contain an "MH" in the call disposition description and indicate that a responding officer assessed that mental health had a role in the incident.
+Read less	mental_health_flag	Text
+
+Priority Level	The priority level assigned to the incident at the time of the first officer's arrival. Priority levels range between 0 and 4, with 0 being the highest priority and 4 being the lowest priority.
+Read less	priority_level	Text
+
+Response Datetime	The date and time that the 911 call-takers Emergency Call Taker (ECT) screen opened following the 911 call being answered in the case of dispatched incidents. In the case of officer-initiated incidents, this field indicates the time the incident was created and sent to the incident queue if it was created via the officer's onboard computer or the time the dispatcher opened their ECT screen and created the incident if the officer created the incident through dispatch.
+Read less	response_datetime	Floating Timestamp
+
+Response Day of Week	The three-character day of week of the Response Datetime.	response_day_of_week	Text
+
+Response Hour	An integer representing the hour of day of the Response Datetime	response_hour	Number
+
+First Unit Arrived Datetime	The date and time that the first APD unit arrived on scene to the incident. This is the endpoint for response time calculations. Multiple units may arrive on a single incident, while individual units may be made up of one or more officers.
+Read less	first_unit_arrived_datetime	Floating Timestamp
+
+Call Closed Datetime	The date and time that the incident was closed, indicating that all units have left the scene and it is no longer active.	call_closed_datetime	Floating Timestamp
+
+Sector	The Austin Police Department patrol sector where the incident occurred.	sector	Text
+
+Initial Problem Description	A preliminary description of the problem meant to be addressed by the CAD incident based on either the information given to the 911 call taker in the case of dispatched incidents, or information collected by officers in the case of officer-initiated incidents. Initial problem descriptions may differ from final problem descriptions based on additional information that comes to light during the call-taking and response processes.
+Read less	initial_problem_description	Text
+
+Initial Problem Category	A general category describing the problem that the CAD incident was meant to address based on the Initial Problem Description value.	initial_problem_category	Text
+
+Final Problem Description	A description of the ultimate issue that was meant to be addressed by the CAD incident. This may differ from the initial problem description based on additional information that comes to light during the call-taking and response processes. Certain final problem descriptions may describe specific criminal offenses from the Texas Penal Code.
+Read less	final_problem_description	Text
+
+Final Problem Category	A general category describing the problem that the CAD incident was meant to address based on the Final Problem Description value.	final_problem_category	Text
+
+Number of Units Arrived	A count of the number of APD units that arrived on scene in response to the CAD incident. Please note that some units may consist of more than one APD officer, while certain units may also include civilian personnel such as crime scene technicians. Moreover, this count may include a variety of type of personnel including patrol officers, investigators, supervisors and public information officers if such personnel are required for the incident response.
+Read less	number_of_units_arrived	Number
+
+Unit Time on Scene	The total amount of time spent on scene by all APD units in seconds.	unit_time_on_scene	Number
+
+Call Disposition Description	A description of the outcome of the call.	call_disposition_description	Text
+
+Report Written Flag	A flag indicating that a responding unit wrote a report in the Records Management System based on this CAD incident. Note that a report being written does not necessarily mean that a criminal offense took place.
+Read less	report_written_flag	Text
+
+Response Time	The amount of time between when the 911 call was answered when the first officer arrived on scene in seconds. Please note that this field is not applicable to officer-initiated incidents and is left blank for such incidents.
+Read less	response_time	Number
+
+Officer Injured/Killed Count	A count of officers seriously injured or killed in a use of force related to this CAD incident where the subject of the use of force was a person with mental illness.	officer_injured_killed_count	Number
+
+Subject Injured/Killed Count	A count of the subjects of a use of force who were seriously injured or killed in a use of force related to this CAD incident where those subjects had a mental illness.
+Read less	subject_injured_killed_count	Number
+
+Other Injured/Killed Count	The number of persons seriously injured or killed in an incident related to this CAD incident where there was also a use of force against an individual with mental illness where either the subject of that use of force or the officer involved in that use of force were seriously injured or killed.
+Read less	other_injured_killed_count	Number
+
+Geo ID	A Census Block Group identifier; a concatenation of the current state FIPS code, county FIPS code, census tract code, and block group number.	geoid	Number
+
+Census Block Group	Shortened Block Group Name based on the Census Bureau's Geo ID. State digits have been removed due to system limitations.	blkgpnm	Number
+
+Council District	The council district where the offense occurred.	council_district	Text
+
+
