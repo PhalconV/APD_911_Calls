@@ -1,24 +1,24 @@
-Problem Statement
+# Problem Statement
 
 You are a data analyst for the Austin Police Department (APD), responsible for examining over 1.76 million 911 calls to improve response times, identify critical incidents, assess mental health impacts, and report on the effectiveness of resource allocation. Your task is to use SQL queries to analyze trends, performance metrics, and safety issues, helping to enhance both officer and community safety.
-1. Improving Response Times
+### 1. Improving Response Times
 Problem: The department wants to understand the factors that affect response times. You are tasked with identifying patterns where response times are high and suggesting changes to reduce these times.
-2. Identifying Mental Health-Related Incidents
+### 2. Identifying Mental Health-Related Incidents
 Problem: The city council is concerned about mental health-related incidents and wants a report detailing how often these incidents occur, their outcomes, and any patterns.
-3. Assessing Resource Allocation and Unit Efficiency
+### 3. Assessing Resource Allocation and Unit Efficiency
 Problem: The APD needs to optimize the number of units dispatched to incidents, ensuring enough officers are present without over-allocating resources.
-4. Analyzing Incidents by Day of Week and Hour
+### 4. Analyzing Incidents by Day of Week and Hour
 Problem: The department wants to understand peak times for different types of incidents to adjust patrol schedules accordingly.
-5. Monitoring High-Priority Incidents
+### 5. Monitoring High-Priority Incidents
 Problem: High-priority incidents (priority level 0 or 1) need special attention to ensure that they are being handled efficiently. The APD wants a report showing these incidents, their outcomes, and any injuries sustained by officers or civilians.
-6. Geospatial Analysis of Incident Locations
+### 6. Geospatial Analysis of Incident Locations
 Problem: The APD wants to understand how incidents are distributed across different council districts and census block groups to better allocate resources.
 
-Additional Case Studies:
+## Additional Case Studies:
 •	Incident outcome analysis, exploring how different types of incidents (initial vs. final problem descriptions) are resolved.
 •	Officer workload analysis, examining which officers or sectors handle the most incidents or experience the longest time on scene.
 
-Key Questions
+## Key Questions
 1.	What is the total number of incidents that occurred in each sector?
 2.	What are the top 5 busiest geographic areas in terms of 911 calls, and what is the average response time for each of these areas?
 3.	Identify sectors where mental health-related incidents make up more than 30% of the total incidents.
@@ -50,17 +50,17 @@ Key Questions
 29.	What is the average number of units dispatched to incidents based on the incident type?
 30.	How do incidents involving officer injuries correlate with mental health-related flags, and which sectors have the highest occurrence of these incidents?
 
-Deliverables:
+## Deliverables:
 -	Design and develop an interactive, real-time dashboard to help the police gain insights and monitor key metrics from the 911 calls. The dashboard should allow police chiefs and department heads to access the latest data and analyze trends for efficient decision-making.
 -	Prepare a professional presentation for police chiefs, summarizing key findings and actionable insights derived from the analysis.
 
-Tools:
+## Tools:
 Any tool aside Excel that can handle large amounts of Data
 
-Deadline:
+## Deadline:
 •	10 days from the start date.
 
-Success Criteria:
+## Success Criteria:
 1.	Effective Real-Time Monitoring
 2.	Improved Operational Efficiency
 3.	Data-Driven Decision Making
