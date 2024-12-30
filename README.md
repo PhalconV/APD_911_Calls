@@ -42,14 +42,15 @@
 Enhancing Emergency Response: An Analysis of 911 Call Trends  
 
 #### **Team**
-- Evalyn Njagi  
-- Rukayat Tokosi  
-- Sunday Gabriel
-- Toheeb Olaniyi
-- AbdulMuiz Akorede
-- Augustine Adams
-- Olabisi Famoroti
-- AbdulRasheed Aminu
+- Evalyn Njagi (Analyst)
+- Rukayat Tokosi (Analyst)
+- Sunday Gabriel (Analyst)
+- Toheeb Olaniyi (Project Lead)
+- AbdulMuiz Akorede (Data Visualizer)
+- Augustine Adams (Analyst)
+- Olabisi Famoroti (Project Secretary)
+- AbdulRasheed Aminu (Analyst)
+
 
 #### **Duration**
 28/10/2024 - (3 Weeks)  
