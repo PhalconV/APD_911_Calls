@@ -1,104 +1,111 @@
-# Austin Police Department
----
+# APD 911 Calls Project Report
 
-## Enhancing Emergency Response: An Analysis of 911 Call Trends
+## Enhancing Emergency Response: An Analysis of 911 Call Trends  
 
----
+### Team Name: The Data Detectives
 
-### **Folders and Subdirectories**
+**Project Members:**  
+- Evalyn Njagi (Analyst)  
+- Rukayat Tokosi (Analyst)  
+- Sunday Gabriel (Analyst)  
+- Toheeb Olaniyi (Project Lead)  
+- AbdulMuiz Akorede (Data Visualizer)  
+- Augustine Adams (Analyst)  
+- Olabisi Famoroti (Project Secretary)  
+- AbdulRasheed Aminu (Analyst)  
 
-#### **1. Project Documentation (`docs/`)**
-#### Executive_Summary
-Evalyn Summary Suggestion:
-Over the years, incident-related issues have risen significantly, leading to an increase in 911 calls. This has necessitated a shift in strategy, ensuring officers are dispatched only to incidents that cannot be resolved over the phone. To support this approach, this report analyzes over Nine Hundred and Fifty-Two Thousand, Eight Hundred and Thirty-Three (952833) 911 calls to enhance emergency response efficiency, assess the mental health impact of critical incidents, and evaluate the effectiveness of resource allocation.
-Using Python and SQL, we identified key trends, assessed performance metrics, and highlighted critical safety concerns. The findings aim to optimize unit dispatch processes, prioritize resources effectively, and ensure timely responses to the most urgent situations.
-
-This report analyzes over Nine Hundred and Fifty-Two Thousand, Eight Hundred and Thirty-Three (952833) 911 calls to improve emergency response times, assess the impact of critical incidents on mental health, and evaluate the effectiveness of resource allocation. By leveraging Python and SQL queries, we uncovered trends, evaluated performance metrics, and identified key safety issues.  
-
-##### Key findings include:  
-911 Call summation: Total 911 calls for the whole year (2021-2024) was observed to be 952, 828 with the highest call summation falling on to 2022.
-Response Times: Average response time was 2,254 seconds for the whole year, with an increase as the year moves closer to 2024.  
-Unit Time on Scene: Average unit time on scene was 6,090 for the whole year round.
-Critical Incidents: Mental health-related calls increased by 12% compared to the previous year.  
-Resource Allocation: Areas with frequent calls had uneven officer deployment, contributing to slower responses in high-density zones.  
-Recommendations include optimizing resource distribution, focusing on mental health interventions, and refining call categorization processes to enhance officer and community safety. 
-
-#### Introduction
-Emergency 911 services are the backbone of public safety, and efficient responses are crucial for minimizing harm. This project aimed to evaluate Nine Hundred and Fifty-Two Thousand, Eight Hundred and Thirty-Three (952833) 911 calls to identify patterns, improve response times, and assess the effectiveness of resource allocation. The analysis also considered the growing importance of addressing mental health-related incidents and community safety.  
-Stakeholders include the Austin Police Department (APD), emergency responders, policymakers, and the broader community.  
-
-#### Data Overview 
-Dataset Description: 
-Source: APD’s comprehensive database of 911 calls.  
-Attributes: Call type, timestamp, response time, location, priority level, and mental health incident tags.  
-Timeframe: 2021 to 2024.  
-Data Cleaning Process:  
-Handling Missing Values: 
-Deduplication: **Are there duplicate values and how are they handled ****
-Data Transformation: ***any calculated field and added columns****  
-Tools and Methods: 
-SQL queries for trend analysis
-Python for supplementary data preprocessing
-Tableau for visualization.  
-
-
-- `Data_Cleaning_Process.md`: Explain the steps taken to clean and preprocess the data, including handling missing values, duplication, and transformation.
-
-#### **2. Data and Preprocessing (`data/`)**
-- **`raw/`**: Include raw data files (if permissible to share).
-- **`data_dictionary.md`**: Describe each dataset's columns and meanings.
-
-#### **3. Code and Scripts (`src/`)**
-- `data_cleaning.py`: Python script for data cleaning and preprocessing.
-- `analysis.sql`: SQL queries for trend and performance analysis.
-- `visualizations.py`: Python script for generating visualizations.
-
-#### **4. Visualizations and Dashboard (`visualizations/`)**
-- **`dashboard_files/`**: Include Tableau workbooks or links to interactive dashboards.
-
-#### **5. Results (`results/`)**
-- **`Summary_Tables.md`**: Include summarized findings and statistics.
-- **`Response_Time_Analysis.md`**: Detail insights from response time analysis.
-- **`Critical_Incidents.md`**: Highlight findings on critical incidents, including mental health cases.
-
-#### **6. Reports (`reports/`)**
-- `Final_Report.md`: A professionally formatted report summarizing the analysis and recommendations.
-- `Presentation_Slides.pdf`: The presentation used for stakeholders.
+**Duration:** 28/10/2024 - (3 Weeks)  
 
 ---
 
-### **README.md Content**
+## Executive Summary
 
-#### **Project Title**
-Enhancing Emergency Response: An Analysis of 911 Call Trends  
+Over the years, incident-related issues have risen significantly, leading to an increase in 911 calls. This necessitates a shift in strategy to ensure officers are dispatched only to incidents that cannot be resolved over the phone. This project analyzes **952,833** 911 calls to enhance emergency response efficiency, assess the mental health impact of critical incidents, and evaluate resource allocation effectiveness.
 
-#### **Team**
-- Evalyn Njagi (Analyst)
-- Rukayat Tokosi (Analyst)
-- Sunday Gabriel (Analyst)
-- Toheeb Olaniyi (Project Lead)
-- AbdulMuiz Akorede (Data Visualizer)
-- Augustine Adams (Analyst)
-- Olabisi Famoroti (Project Secretary)
-- AbdulRasheed Aminu (Analyst)
+Key findings:  
+- **911 Call Summation:** Total calls from 2021 to 2024 reached 952,833, with the highest volume in 2022.  
+- **Response Times:** Average response time was **2,254 seconds (37.5 minutes)**, increasing closer to 2024.  
+- **Unit Time on Scene:** Average time on scene was **6,090 seconds (101.5 minutes)**.  
+- **Critical Incidents:** Mental health-related calls increased by 12% compared to the previous year.  
+- **Resource Allocation:** Uneven officer deployment in high-density zones led to slower responses.  
 
+### Recommendations:
+1. Optimize resource distribution.
+2. Focus on mental health interventions.
+3. Refine call categorization to enhance safety for officers and communities.
 
-#### **Duration**
-28/10/2024 - (3 Weeks)  
+---
 
-#### **Overview**
-This repository contains the analysis and insights derived from 952,833 emergency calls handled by the Austin Police Department (APD) between 2021 and 2024. The project focuses on improving response times, addressing mental health-related incidents, and optimizing resource allocation using Python, SQL, and Tableau.  
+## Introduction
 
-#### **Key Findings**
-- **911 Call Volume:** Total calls were 952,828, with 2022 seeing the highest volume.  
-- **Response Times:** The average response time was 2,254 seconds, with delays increasing closer to 2024.  
-- **Critical Incidents:** Mental health-related calls rose by 12% from the previous year.  
-- **Resource Allocation:** High-density areas experienced slower response times due to uneven officer distribution.  
+Emergency 911 services are the backbone of public safety, and efficient responses are crucial for minimizing harm. This project evaluates **952,833** 911 calls from **2021 to 2024** to identify patterns, improve response times, and assess resource allocation effectiveness. Special attention was given to mental health-related incidents.
 
-#### **Recommendations**
-- Optimize officer deployment to high-call-density areas during peak hours.  
-- Provide training for mental health crisis intervention.  
-- Utilize predictive analytics for better resource planning.  
-- Promote community engagement to reduce non-emergency 911 calls.  
+### Stakeholders:  
+- Austin Police Department (APD)  
+- Emergency responders  
+- Policymakers  
+- Broader community  
+
+---
+
+## Data Overview
+
+### Dataset Description:  
+- **Source:** APD's 911 call database.  
+- **Attributes:** Call type, timestamp, response time, location, priority level, mental health flags.  
+- **Timeframe:** 2021 to 2024.  
+
+### Data Cleaning Process:
+1. **Handling Missing Values:** Rows with insufficient data were removed, and remaining nulls were filled with 0.  
+2. **Deduplication:** Duplicates were assessed and retained when discrepancies existed between incident records.  
+3. **Data Transformation:** Datetime columns were standardized for trend analysis.  
+
+**Tools Used:**  
+- SQL for trend analysis  
+- Python for preprocessing  
+- Tableau for visualization  
+
+---
+
+## Analysis
+
+### Call Volume Trends:
+- **Total Calls:** 952,833  
+- **Priority Breakdown:**  
+  - Priority 0: 12.68%  
+  - Priority 1: 18.64%  
+  - Priority 2: 50.33%  
+  - Priority 3: 18.55%  
+
+### Response Time Insights:
+- **Average Response Time:** 2,254 seconds (37.5 minutes).  
+- **Peak Issues:**  
+  - Disturbances: 349,350 incidents.  
+  - Welfare Checks: 220,516 incidents.  
+  - Suspicious Activities: 183,839 incidents.  
+  - Trespassing: 168,174 incidents.  
+
+### Officer & Subject Injuries:
+- Minimal injuries: 1 officer and 3 subjects.  
+- Officer Edward managed the highest workload (137,979 cases).  
+
+### Temporal Patterns:
+- Higher call volumes during late-night and early-morning hours, especially on weekends (12 AM to 3 AM).  
+
+---
+
+## Data Cleaning Details
+
+### Handling Missing Values:
+- Identified using `.isna().sum()` and removed rows with insufficient data.  
+
+### Duplication:
+- Assessed duplicates in `Incident Number` and retained records with discrepancies.  
+
+### Data Transformation:
+- Converted datetime columns for consistent formatting, enabling trend analysis.  
+
+### Final Dataset Check:
+- Verified dataset consistency and displayed all columns for comprehensive review.  
 
 ---
