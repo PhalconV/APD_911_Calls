@@ -8,9 +8,40 @@
 ### **Folders and Subdirectories**
 
 #### **1. Project Documentation (`docs/`)**
-- `Executive_Summary.md`: Contain the executive summary, key findings, and recommendations.
-- `Introduction.md`: Detail the project's background, objectives, and stakeholders.
-- `Data_Overview.md`: Provide a comprehensive description of the dataset, including attributes, timeframe, and data sources.
+#### Executive_Summary
+Evalyn Summary Suggestion:
+Over the years, incident-related issues have risen significantly, leading to an increase in 911 calls. This has necessitated a shift in strategy, ensuring officers are dispatched only to incidents that cannot be resolved over the phone. To support this approach, this report analyzes over Nine Hundred and Fifty-Two Thousand, Eight Hundred and Thirty-Three (952833) 911 calls to enhance emergency response efficiency, assess the mental health impact of critical incidents, and evaluate the effectiveness of resource allocation.
+Using Python and SQL, we identified key trends, assessed performance metrics, and highlighted critical safety concerns. The findings aim to optimize unit dispatch processes, prioritize resources effectively, and ensure timely responses to the most urgent situations.
+
+This report analyzes over Nine Hundred and Fifty-Two Thousand, Eight Hundred and Thirty-Three (952833) 911 calls to improve emergency response times, assess the impact of critical incidents on mental health, and evaluate the effectiveness of resource allocation. By leveraging Python and SQL queries, we uncovered trends, evaluated performance metrics, and identified key safety issues.  
+
+##### Key findings include:  
+911 Call summation: Total 911 calls for the whole year (2021-2024) was observed to be 952, 828 with the highest call summation falling on to 2022.
+Response Times: Average response time was 2,254 seconds for the whole year, with an increase as the year moves closer to 2024.  
+Unit Time on Scene: Average unit time on scene was 6,090 for the whole year round.
+Critical Incidents: Mental health-related calls increased by 12% compared to the previous year.  
+Resource Allocation: Areas with frequent calls had uneven officer deployment, contributing to slower responses in high-density zones.  
+Recommendations include optimizing resource distribution, focusing on mental health interventions, and refining call categorization processes to enhance officer and community safety. 
+
+#### Introduction
+Emergency 911 services are the backbone of public safety, and efficient responses are crucial for minimizing harm. This project aimed to evaluate Nine Hundred and Fifty-Two Thousand, Eight Hundred and Thirty-Three (952833) 911 calls to identify patterns, improve response times, and assess the effectiveness of resource allocation. The analysis also considered the growing importance of addressing mental health-related incidents and community safety.  
+Stakeholders include the Austin Police Department (APD), emergency responders, policymakers, and the broader community.  
+
+#### Data Overview 
+Dataset Description: 
+Source: APD’s comprehensive database of 911 calls.  
+Attributes: Call type, timestamp, response time, location, priority level, and mental health incident tags.  
+Timeframe: 2021 to 2024.  
+Data Cleaning Process:  
+Handling Missing Values: 
+Deduplication: **Are there duplicate values and how are they handled ****
+Data Transformation: ***any calculated field and added columns****  
+Tools and Methods: 
+SQL queries for trend analysis
+Python for supplementary data preprocessing
+Tableau for visualization.  
+
+
 - `Data_Cleaning_Process.md`: Explain the steps taken to clean and preprocess the data, including handling missing values, duplication, and transformation.
 
 #### **2. Data and Preprocessing (`data/`)**
